@@ -1,1 +1,1 @@
- https://guli-gulom.github.io/rsschool-cv/cv
+ https://guli-gulom.github.io/rcschool-cv/cv

@@ -7,13 +7,17 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: gainsboro;
 }
 .grid-container {
     padding: 20px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
+
+}
+.for-image {
+    margin-right: 20rem;
+    margin-top: 5rem;
 
 }
 .for-image img{
@@ -24,16 +28,23 @@
 }
 .for-head {
 width: 100%;
-margin-left: 3rem;
 }
 .for-head h1{
     text-align: center;
     font-size: 2.5rem;
+    padding: 10px 0;
 }
 .first, .second, .third, .fourth {
     padding: 20px 0;
     margin-left: 3rem;
 
+}
+.first h3 {
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+.first p {
+    line-height: 29px;
 }
 nav a {
 text-decoration: none;
@@ -41,6 +52,7 @@ text-decoration: none;
 nav ul li{
     list-style: none;
     padding: 10px 0;
+    margin-left: 3rem;
 }
 .second a, .third a, .fourth a{
     text-decoration: none;
@@ -57,4 +69,21 @@ nav ul li{
 main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+footer{
+padding: 20px 0;
+margin-left: 3rem;
+}
+footer h2 {
+    padding: 15px 0;
+}
+footer h3 {
+    padding-top: 10px;
+    font-size: 1.4rem;
+}
+footer ul li {
+    color: blueviolet;
+    padding: 10px  0;
+    display: inline-block;
+    margin-left: 10px;
 }

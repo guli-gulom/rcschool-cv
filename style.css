@@ -10,5 +10,13 @@
     background-color: gainsboro;
 }
 .grid-container {
+    padding: 20px 0;
     display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.for-image img{
+    width: 80%;
+    height: 200px;
+    object-fit:contain;
+
 }

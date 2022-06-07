@@ -9,3 +9,6 @@
     margin: 0 auto;
     background-color: gainsboro;
 }
+.grid-container {
+    display: grid;
+}
